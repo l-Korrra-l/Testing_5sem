@@ -28,7 +28,7 @@ public class FirstTest {
 
     @After
     public void Close() {
-
+        driver.quit();
     }
 
     //TODO Title вкладки браузера содержит слово “iTechArt”
